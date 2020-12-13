@@ -6,6 +6,7 @@ Pipeline {
 		      steps {
 			     sh 'mvn  --version'
 			      echo 'Hello World'
+			      echo 'Hello'
 			}
 		}
 	}
